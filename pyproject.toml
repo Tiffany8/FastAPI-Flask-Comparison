@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "flask-fastapi"
+version = "0.1.0"
+description = "Exploring differences between Flask and FastAPI"
+authors = ["Tiffany R. Williams <trowilliams@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+uvicorn = "^0.23.2"
+marshmallow = "^3.20.1"
+flask = "^3.0.0"
+fastapi = "^0.103.2"
+gunicorn = "^21.2.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
